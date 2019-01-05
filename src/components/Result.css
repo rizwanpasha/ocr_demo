@@ -1,0 +1,63 @@
+.result {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2d3436;
+    padding: 40px;
+}
+
+#options {
+    flex: 1;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#options>ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+#resultTextArea {
+    flex: 4;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#languageType, #translateOptions {
+    width: 200px;
+    padding-left:5px;
+    border-radius: 4px;
+}
+
+.button-round {
+    font-size: 30px;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+textarea {
+    resize: none;
+    width: 40%;
+    height: 70%;
+    border-radius: 5px;
+    padding: 10px;
+}
